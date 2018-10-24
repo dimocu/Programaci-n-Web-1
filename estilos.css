@@ -1,0 +1,35 @@
+*{
+	padding:0; 
+	margin:0;
+}
+* font-face{
+	font-family: <franklin gothic heavy>;
+	src: <origen>; [,<origen>]*;
+	[font-weight: <peso>];
+	[font-style: <estilo>];
+}
+body
+{
+	font-family: "franklin gothic heavy, helvetica, verdana;
+	background:#005883;
+	color: #FFFFFF;
+	font-size: 2ex;
+}
+h1, figure
+{
+
+	color:#f60;
+	margin: 0.25ex auto;
+	text-align: center;
+	
+}
+header, nav, footer
+{background:#1E6381;
+	border-radius: 0.5ex;
+	margin: 0.5ex auto;
+	max-width: 960px;
+	padding: 0.25ex;
+	text-align: center;
+
+
+}
