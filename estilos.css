@@ -9,27 +9,41 @@
 	[font-style: <estilo>];
 }
 body
-{
-	font-family: "franklin gothic heavy, helvetica, verdana;
+{	font-family: "franklin gothic heavy, helvetica, verdana;
 	background:#005883;
 	color: #FFFFFF;
 	font-size: 2ex;
 }
-h1, figure
-{
-
-	color:#f60;
+h1, figure, article
+{	color:#f60;
 	margin: 0.25ex auto;
 	text-align: center;
-	
 }
-header, nav, footer
+header,aside
 {background:#1E6381;
 	border-radius: 0.5ex;
 	margin: 0.5ex auto;
 	max-width: 960px;
 	padding: 0.25ex;
 	text-align: center;
-
-
+}
+figure1
+{text-align:50ex ;
+}
+nav
+{background:#F0B429;
+	border-radius: 0.5ex;
+	margin: 0.5ex auto;
+	max-width: 960px;
+	padding: 0.25ex;
+	text-align: center;
+}
+footer
+{
+background:#F47920;
+border-radius: 0.5ex;
+	margin: 0.5ex auto;
+	max-width: 960px;
+	padding: 0.25ex;
+	text-align: center;
 }
